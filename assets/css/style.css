@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Pacifico&display=swap');
 
 * {
   padding: 0;
@@ -15,10 +15,33 @@ body {
 
 header {
   background-color: white;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px grey;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-family: 'Pacifico', sans-serif;
+  color: red;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
+#menu {
+  font-size: 120%;
+  letter-spacing: 2px;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid gray;
 }
 
 main {
