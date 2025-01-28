@@ -117,4 +117,18 @@ footer {
   .nav-toggle-label {
     display: none;
   }
+  #logo {
+    font-size: 300%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+  main {
+    margin-top: 82px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid gray;
+  }
 }
