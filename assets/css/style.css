@@ -94,9 +94,14 @@ main {
   flex: 1 0 auto;
   margin-top: 56px;
 }
-
-footer {
-  background-color: white;
+ /**Footer Styles**/
+#social-media {
+  text-align:center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 300%;
 }
 
 @media screen and (min-width: 768px) {
