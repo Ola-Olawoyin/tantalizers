@@ -96,7 +96,7 @@ main {
 }
 
 footer {
-  background-color: gray;
+  background-color: white;
 }
 
 @media screen and (min-width: 768px) {
