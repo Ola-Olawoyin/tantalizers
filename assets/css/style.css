@@ -19,7 +19,6 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px grey;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -89,11 +88,29 @@ nav {
 }
 
 main {
-  background-color: aqua;
   /*Sets flex grow, flex shrink and flex basis*/
   flex: 1 0 auto;
   margin-top: 56px;
 }
+
+/*Intro Section*/
+#intro {
+   width: 70%;
+   font-size:x-large;
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 1rem;
+}
+/*Intro Section*/
+#intro-image {
+ height: 600px;
+ width: 100%;
+ background: url("../images/seafood.jpg")no-repeat center center/cover ;
+ padding: 1rem;
+}
+
  /**Footer Styles**/
 #social-media {
   text-align:center;
