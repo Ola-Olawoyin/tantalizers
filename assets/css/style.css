@@ -290,6 +290,15 @@ position: relative;
   #opening-time {
     font-size: larger;
   }
+
+  .menu-accordion {
+    text-align: center;
+}
+  .accordion {
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: left;
+}
  
 }
 
