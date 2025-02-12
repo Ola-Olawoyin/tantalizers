@@ -260,16 +260,14 @@ main {
     font-size: 16px;
     color: lightgray
 }
-
+/** Menu Images**/
 .meal-picture {
     display: flex;
     justify-content: center;
-    /* Centers the image horizontally */
     align-items: center;
-    /* Centers the image vertically */
     text-align: center;
     padding: 20px;
-    /* Adds some spacing */
+    line-height: 0;
 }
 
 #meal-photos img {
