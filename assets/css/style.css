@@ -294,6 +294,13 @@ i {
     font-size: 200%;
 }
 
+@media screen and (min-width: 576px) {
+    #meal-photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -342,10 +349,8 @@ i {
         margin: 0 auto;
         text-align: left;
     }
-
-    #meal-photos img {
-        width: 400px;
-        height: auto;
+    #meal-photos {
+        column-count: 3;
     }
 
 }
@@ -353,6 +358,9 @@ i {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid gray;
+    }
+    #meal-photos {
+        column-count: 4;
     }
 
 
