@@ -277,6 +277,13 @@ main {
 }
 
 /* Style for the section */
+.table-booking {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: orangered;
+}
 .user-info {
     max-width: 500px;
     margin: 40px auto;
