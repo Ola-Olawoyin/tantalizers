@@ -276,8 +276,85 @@ main {
     object-fit: cover;
 }
 
+/* Style for the section */
+.user-info {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+/* Style for form */
+.user-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+/* Style for form sections */
+.user-details,
+.about-meal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+/* Input and textarea styling */
+.user-info input,
+.user-info textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Focus effect */
+.user-info input:focus,
+.user-info textarea:focus {
+    border-color: orangered;
+    box-shadow: orangered;
+}
+
+/* Submit button styling */
+.user-info input[type="submit"] {
+    background: orangered;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.user-info input[type="submit"]:hover {
+    background: orangered;
+    transform: scale(1.05);
+}
+
+/* Adjust textarea sizes */
+#meal-order {
+    height: 120px;
+}
+
+#allergies {
+    height: 80px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .user-info {
+        width: 90%;
+        padding: 15px;
+    }
+}
 
 
 /**Footer Styles**/
@@ -298,6 +375,11 @@ i {
     #meal-photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    .user-info {
+        width: 90%;
+        padding: 15px;
     }
 }
 
