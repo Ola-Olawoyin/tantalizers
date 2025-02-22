@@ -174,7 +174,7 @@ main {
 /*Intro Section*/
 #intro {
     width: 70%;
-    font-size:medium;
+    font-size:large;
     font-style:normal;
     text-align: center;
     padding-top: 1rem;
@@ -432,8 +432,15 @@ i {
         margin-top: 82px;
     }
 
+    #intro {    
+        font-size:small;
+    }
+
     #intro-food-text {
         width: 400px
+    }
+    #intro-food-text {
+        font-size: 80%;
     }
 
     #opening-time {
