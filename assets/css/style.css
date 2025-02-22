@@ -234,10 +234,12 @@ img#intro-image {
 #book-table:hover {
     background-color: gray;
 }
+.meal-time{
+    padding-bottom: 10px;
+}
 
 #opening-time ul {
     list-style-type: none;
-    padding: 0;
     text-align: center;
 }
 
@@ -445,6 +447,7 @@ i {
 
     #opening-time {
         font-size: larger;
+        width: 30%
     }
 
     .menu-accordion {
