@@ -179,17 +179,26 @@ main {
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    color: orangered;
+    color: white;
 }
 
 /*Intro Section*/
 #intro-image {
     position: relative;
     height: 650px;
-    width: 100%;
+    width: 98%;
     background: url("../images/shrimp-palate.jpg") no-repeat center center/cover;
     padding: 1rem;
+    border-radius: 50px;
 }
+
+img#intro-image {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fills the circle properly */
+}
+
 
 #intro-food-text {
     background: rgba(0, 0, 0, 0.5);
