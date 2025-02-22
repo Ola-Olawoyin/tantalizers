@@ -174,10 +174,11 @@ main {
 /*Intro Section*/
 #intro {
     width: 70%;
-    font-size: x-large;
-    font-style: italic;
-    font-weight: bold;
+    font-size:medium;
+    font-style:normal;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 0 auto;
     color: white;
 }
