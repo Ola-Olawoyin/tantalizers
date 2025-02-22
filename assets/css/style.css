@@ -368,13 +368,6 @@ img#intro-image {
     height: 80px;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    .user-info {
-        width: 90%;
-        padding: 15px;
-    }
-}
 
 
 /**Footer Styles**/
@@ -390,7 +383,7 @@ i {
     list-style-type: none;
     font-size: 200%;
 }
-
+/* Responsive Design */
 @media screen and (min-width: 576px) {
     #meal-photos {
         column-count: 2;
@@ -402,6 +395,7 @@ i {
         padding: 15px;
     }
 }
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -469,9 +463,5 @@ i {
     #menu a:hover {
         border-bottom: 1px solid gray;
     }
-    #meal-photos {
-        column-count: 4;
-    }
-
 
 }
