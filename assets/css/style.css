@@ -246,7 +246,7 @@ img#intro-image {
     border-radius: 5px;
 }
 
-#book-table {
+#book-table, #view-menu {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
