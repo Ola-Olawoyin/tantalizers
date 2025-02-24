@@ -245,9 +245,10 @@ img#intro-image {
     text-align: center;
     border-radius: 5px;
 }
-
+/*Style the book a table and view munu buttons*/
 #book-table, #view-menu {
-    margin-top: 10px;
+    display: block; /* Appear one on top of the other*/
+    margin: 10px auto; /* Adds spacing above and below, centers them */
     margin-bottom: 10px;
     text-align: center;
 }
