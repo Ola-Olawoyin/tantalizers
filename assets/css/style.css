@@ -289,13 +289,18 @@ img#intro-image {
 
 #opening-time li {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 5px 0;
+}
+
+#opening-time li:nth-child(3) {
+    margin-top: 15px; /* Adds space after "Sat-Sun: 10am - 10pm" */
 }
 
 #opening-time li strong {
     font-size: 20px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
 }
 
 #opening-time ul ul {
@@ -306,6 +311,9 @@ img#intro-image {
     font-weight: normal;
     font-size: 16px;
     color: lightgray
+}
+#visit-us{
+    padding-top: 10px;
 }
 /** Menu Images**/
 .meal-picture {
