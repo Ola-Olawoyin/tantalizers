@@ -401,6 +401,24 @@ img#intro-image {
     transform: scale(1.05);
 }
 
+#booking-date {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: grey;
+    text-transform: uppercase;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Focus effect for date input */
+#booking-date:focus {
+    border-color: orangered;
+}
+
+
 /* Adjust textarea sizes */
 #meal-order {
     height: 120px;
