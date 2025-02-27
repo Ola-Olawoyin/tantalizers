@@ -182,6 +182,7 @@ nav {
     position: absolute;
     background-color: white;
     width: 100%;
+    text-transform: uppercase;
     box-shadow: 0 2px 2px grey;
     padding: 0 1rem;
     left: 0;
