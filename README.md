@@ -16,7 +16,7 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 * As a guest or user I want to be able to navigate to the restaurant's social media handles so that I can keep myself updated with restaurant's latest information.
 * As a guest or user I want to be able to navigate to the Homepage using the restaurant's logo so that I can quickly return to the landing page from any page.
 
-Landing page (Index.html)
+### Landing page (Index.html)
 * As a guest or user I want to see an inviting homepage with high-quality image of an appealing meal, a welcome message and offers, so that I can get a great first impression of the restaurant.
 * As a guest or user I want to be able to access the booking page from the home page so that I can easily and quickly make a reservation.
 * As a guest or user I want to access the menu options so I can quickly decide on the meal to select.
