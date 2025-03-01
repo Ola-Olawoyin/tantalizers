@@ -45,15 +45,15 @@ Landing page (Index.html)
         * BOOKING - leads to the booking page where user can book a table and specify additional information.
     - The navigation is clear and easy to understand for the user.
     
-    ![NavBar desktop](documentation/navbar_desktop.png)
+    ![NavBar desktop](documentation/navbar_desktop.PNG)
 
     - The navigation bar is responsive:
         * On tablets: navigation displays similar to its desktop, but with logo closer to the navigatiion icons.
-        ![NavBar Tablets](documentation/navbar_tablets.png)
+        ![NavBar Tablets](documentation/navbar_tablets.PNG)
 
         * On mobile devices: 
             - The navigation bar filled with the logo on the left and a hamburger menu implemented on the right side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.PNG)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
             ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
@@ -61,6 +61,7 @@ Landing page (Index.html)
 + ##### Footer
     - There are four social media links (currently not navigating to the social media homepage respectively)
 
+---
 
 +  ### Home Page
 
@@ -73,6 +74,7 @@ Landing page (Index.html)
 
     ![Home Page](documentation/home-page.png)
 
+---
 
 +  ### Menu Page
 
@@ -84,6 +86,6 @@ Landing page (Index.html)
 
     ![Home Page](documentation/menu-page.png)
 
-
+---
 
 
