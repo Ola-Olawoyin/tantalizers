@@ -34,7 +34,7 @@ Landing page (Index.html)
 
 ## Features
 
-+ ### Navbar
++ ### NavBar
 
 + ##### Navigation
     - Positioned at the top of the page.
