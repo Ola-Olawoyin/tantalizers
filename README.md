@@ -67,10 +67,23 @@ Landing page (Index.html)
     - Represent: 
 
         * the main idea of the restaurant.
-        * Invites to fill out the book a table form.
-        * Invites to view the menu list
-        * Lists the opening time and location of the restaurant
+        * invites to fill out the book a table form.
+        * invites to view the menu list
+        * lists the opening time and location of the restaurant
 
     ![Home Page](documentation/home-page.png)
+
+
++  ### Menu Page
+
+    - Represent: 
+
+        * the list of available meals.
+        * the images of different dishes.
+        * invites to fill out the book a table form.
+
+    ![Home Page](documentation/menu-page.png)
+
+
 
 
