@@ -71,6 +71,6 @@ Landing page (Index.html)
         * Invites to view the menu list
         * Lists the opening time and location of the restaurant
 
-    ![Home Page](documentation/home_page.png)
+    ![Home Page](documentation/home-page.png)
 
 
