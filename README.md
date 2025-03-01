@@ -88,4 +88,13 @@ Landing page (Index.html)
 
 ---
 
++  ### Booking Page
+
+    - Represent: 
+
+        * A simple form to book a table.
+        * An option to specify special request.
+        * A submission button that creates a confirmation for the data entry
+
+    ![Home Page](documentation/booking-page.png)
 
