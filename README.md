@@ -3,7 +3,7 @@ Welcome to the Tantalizers restaurant website! This project aims to provide a se
 
 This site can be accessed by this [link] (https://ola-olawoyin.github.io/tantalizers/)
 
-![Responsive Mockup](documentation/responsive_mockup.png)
+![Responsive Mockup](documentation/responsive_mockup.PNG)
 
 
 Project Goals:
