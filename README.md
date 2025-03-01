@@ -56,7 +56,7 @@ Landing page (Index.html)
             ![NavBar Mobile Closed](documentation/navbar_mobile_closed.PNG)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
+            ![NavBar Mobile Open](documentation/navbar_mobile_open.PNG)
 
 + ##### Footer
     - There are four social media links (currently not navigating to the social media homepage respectively)
