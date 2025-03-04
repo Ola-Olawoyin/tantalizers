@@ -58,10 +58,6 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
             ![NavBar Mobile Open](documentation/navbar_mobile_open.PNG)
 
-+ ##### Footer
-    - There are four social media links (currently not navigating to the social media homepage respectively)
-
----
 
 +  ### Home Page
 
@@ -82,9 +78,9 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 
         * the list of available meals.
         * the images of different dishes.
-        * invites to fill out the book a table form.
+        * invitation to fill out the book a table form.
 
-    ![Home Page](documentation/menu-page.png)
+    ![Menu Page](documentation/menu-page.png)
 
 ---
 
@@ -96,5 +92,60 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
         * An option to specify special request.
         * A submission button that creates a confirmation for the data entry
 
-    ![Home Page](documentation/booking-page.png)
+    ![Booking Page](documentation/booking-page.png)
+
+--- 
+
++ ##### Footer
+    - There are four social media links (currently not navigating to the social media homepage respectively)
+
+     ![Footer](documentation/footer.PNG)
+
+---
+## Technologies Used
+- [Favicon](https://icons8.com/icons/set/favicon-food) was used as source from which favicon was seleceted
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) was used to resize images to align
+
+
+---
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Ola-Olawoyin/tantalizers), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://ola-olawoyin.github.io/tantalizers)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Ola-Olawoyin/tantalizers.git`
+
+
+
+---
+
+## Acknowledgments
+
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) for mentoring and support.
+- [Mark Lassoff](https://www.udemy.com/course/become-a-certified-web-developer) for HTML and CSS tutoring.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+- [Sean Darley](https://www.linkedin.com/in/seandarley) for helping with testing the application
+- My wife [Adeola Olawoyin](https://www.linkedin.com/in/adeola-olawoyin-02550232) for providing support and encouragement and also the main tester of the application.
+
+---
+
 
