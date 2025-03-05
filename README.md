@@ -142,10 +142,13 @@ In your IDE Terminal, type the following command to clone my repository:
 - [Juliia Konovalova](https://github.com/IuliiaKonovalova) for mentoring and support.
 - [Mark Lassoff](https://www.udemy.com/course/become-a-certified-web-developer) for HTML and CSS tutoring.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
-- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
-- [Sean Darley](https://www.linkedin.com/in/seandarley) for helping with testing the application
+- [Lipika Magon](https://www.linkedin.com/in/lmagon) for spending time discussing project idea.
+- [Sean Darley](https://www.linkedin.com/in/seandarley) for helping with testing the application.
 - My wife [Adeola Olawoyin](https://www.linkedin.com/in/adeola-olawoyin-02550232) for providing support and encouragement and also the main tester of the application.
 
 ---
+
+## Testing
+
 
 
