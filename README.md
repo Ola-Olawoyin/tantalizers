@@ -1,7 +1,7 @@
 # *Tantalizers Restaurant*
 Welcome to the Tantalizers restaurant website! This project aims to provide a seamless online experience for our customers, allowing them to easily browse the menu, make reservations, and receive booking confirmations—all from the comfort of their home.
 
-This site can be accessed by this [link] (https://ola-olawoyin.github.io/tantalizers/)
+This site can be accessed by this [link](https://ola-olawoyin.github.io/tantalizers/)
 
 ![Responsive Mockup](documentation/responsive_mockup.PNG)
 
