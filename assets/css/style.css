@@ -128,7 +128,7 @@ h1 {
     margin-right: 10px;
 }
 
-input[type="radio"] {
+input[type="checkbox"] {
     display: none;
 }
 
@@ -142,14 +142,14 @@ input[type="radio"] {
     border-radius: 0 0 8px 8px;
 }
 
-.accordion input[type="radio"]:checked + label + .content {
+.accordion input[type="checkbox"]:checked + label + .content {
     max-height: 500px; /* Adjust based on content */
     padding: 15px;
     background: wheat;
     border-left: 5px solid whitesmoke; 
 }
 
-.accordion input[type="radio"]:checked + label::before {
+.accordion input[type="checkbox"]:checked + label::before {
     content: '-';
 }
 
