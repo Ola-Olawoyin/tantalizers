@@ -223,8 +223,8 @@ main {
     height: 650px;
     background: url("../images/shrimp-palate.jpg") no-repeat center center/cover;
     padding: 1rem;
-    border-radius: 50px;
-    max-width: 800px;
+    border-radius: 10px;
+    max-width: 900px;
     display: block;
     margin: 0 auto;
 }
@@ -249,10 +249,19 @@ img#intro-image {
     border-radius: 5px;
 }
 /*Style the book a table and view munu buttons*/
+.details {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center them horizontally */
+}
 #book-table, #view-menu {
     display: block; /* Appear one on top of the other*/
-    margin: 10px auto; /* Adds spacing above and below, centers them */
-    margin-bottom: 10px;
+    width: fit-content;
+    margin:10px; /* Adds spacing above and below, centers them */
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
     text-align: center;
 }
 
