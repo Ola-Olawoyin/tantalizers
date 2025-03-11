@@ -221,10 +221,12 @@ main {
 #intro-image {
     position: relative;
     height: 650px;
-    width: 98%;
     background: url("../images/shrimp-palate.jpg") no-repeat center center/cover;
     padding: 1rem;
     border-radius: 50px;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
 
 img#intro-image {
