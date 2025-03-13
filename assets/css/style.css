@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+h2 {
+display: none;
+}
+
+
 body {
     min-height: 100vh;
     display: flex;
