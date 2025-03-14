@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Pacifico&display=swap');
+/* Google Font */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200..700&family=Pacifico&display=swap');
 
 * {
     padding: 0;
@@ -6,9 +8,6 @@
     box-sizing: border-box;
 }
 
-h2 {
-display: none;
-}
 
 
 body {
@@ -36,11 +35,14 @@ a {
     color: inherit;
 }
 
-h1 {
+h1{
     font-family: 'Pacifico', sans-serif;
     color: orangered;
 }
 
+.hidden-header {
+    display: none;
+}
 .book-btn {
     text-decoration: none;
     background-color: orangered;
@@ -157,6 +159,20 @@ input[type="checkbox"] {
 .accordion input[type="checkbox"]:checked + label::before {
     content: '-';
 }
+/*Style confirmation text*/
+
+#confirm-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: orangered;
+}
+
+#confirm {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
 
 #menu-heading {
     padding: 20px 40px;
@@ -213,7 +229,7 @@ main {
 /*Intro Section*/
 #intro {
     width: 70%;
-    font-size:large;
+    font-size:1rem !important;
     font-style:normal;
     text-align: center;
     padding-top: 1rem;
@@ -229,7 +245,7 @@ main {
     background: url("../images/shrimp-palate.jpg") no-repeat center center/cover;
     padding: 1rem;
     border-radius: 10px;
-    max-width: 900px;
+    max-width: 80%;
     display: block;
     margin: 0 auto;
 }
@@ -282,7 +298,7 @@ img#intro-image {
     transition: 0.3s;
 }
 
-#book-table:hover {
+#book-table:hover, #view-menu:hover {
     background-color: gray;
 }
 .meal-time{
@@ -355,6 +371,7 @@ img#intro-image {
     text-align: center;
     font-size: x-large;
     color: orangered;
+    font-family: 'Pacifico', sans-serif;
 }
 .user-info {
     max-width: 500px;
