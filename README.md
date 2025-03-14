@@ -3,7 +3,7 @@ Welcome to the Tantalizers restaurant website! This project aims to provide a se
 
 This site can be accessed by this [link](https://ola-olawoyin.github.io/tantalizers/)
 
-![Responsive Mockup](documentation/responsive_mockup.PNG)
+![Responsive Mockup](documentation/responsive_mockup.jpg)
 
 
 Project Goals:
@@ -45,18 +45,18 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
         * BOOKING - leads to the booking page where user can book a table and specify additional information.
     - The navigation is clear and easy to understand for the user.
     
-    ![NavBar desktop](documentation/navbar_desktop.PNG)
+    ![NavBar desktop](documentation/navbar_desktop.jpg)
 
     - The navigation bar is responsive:
         * On tablets: navigation displays similar to its desktop, but with logo closer to the navigatiion icons.
-        ![NavBar Tablets](documentation/navbar_tablets.PNG)
+        ![NavBar Tablets](documentation/navbar_tablets.jpg)
 
         * On mobile devices: 
             - The navigation bar filled with the logo on the left and a hamburger menu implemented on the right side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.PNG)
+            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.jpg)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.PNG)
+            ![NavBar Mobile Open](documentation/navbar_mobile_open.jpg)
 
 
 +  ### Home Page
@@ -99,7 +99,7 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 + ##### Footer
     - There are four social media links (currently not navigating to the social media homepage respectively)
 
-     ![Footer](documentation/footer.PNG)
+     ![Footer](documentation/footer.jpg)
 
 ---
 ## Technologies Used
