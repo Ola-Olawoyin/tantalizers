@@ -287,21 +287,34 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
 
+<<<<<<< HEAD
     ![Home Page HTML Validator](documentation/home_page_validation.png)
+=======
+    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+>>>>>>> fd222d7eb124132f79e3bbc2f3ac5cb326d32751
     
   #### Menu Page
     - No errors or warnings were found when passing through the official W3C validator.
 
+<<<<<<< HEAD
     ![Menu Page HTML Validator](documentation/menu_page_validation.jpg)
+=======
+    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+>>>>>>> fd222d7eb124132f79e3bbc2f3ac5cb326d32751
 
   #### Booking Page
     - No errors or warnings were found when passing through the official W3C validator.
 
+<<<<<<< HEAD
     ![Booking Page HTML Validator](documentation/booking_page_validation.png)
+=======
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+>>>>>>> fd222d7eb124132f79e3bbc2f3ac5cb326d32751
 
   #### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
 
+<<<<<<< HEAD
     ![Response Page HTML Validator](documentation/response_page_validation.png)
     
 + ### CSS
@@ -309,6 +322,23 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
   ![CSS Validator errors](documentation/css_validation.png)
   
+=======
+    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    
++ ### CSS
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+    
+    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+
+    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
+
+  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+  
+    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
+    
+  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+
+>>>>>>> fd222d7eb124132f79e3bbc2f3ac5cb326d32751
 
 + ## LightHouse report
 
@@ -334,6 +364,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ​
 ## Bugs
 + ### Solved bugs
+<<<<<<< HEAD
     1. The home page image was not properly aligned and was appearing to large on larger sceens
     
         *Solutions:* A max width set in 80% ensured image is at maximum of 80% of screen size.
@@ -356,5 +387,24 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### Mistakes
     - Mistakes were made while committing changes. I commited some unrelated changes and I wasn't able to include adequate commit messages.
     - While progressing in my code I learned to commit relatable changes.
+=======
+    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    
+        *Solutions:* Outline was replaced with border properties.
+    
+    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+        
+        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+
+    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+        
+        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+    ---
++ ### Unsolved bugs
+    - None.
++ ### Mistakes
+    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
+    - While progressing in my code I learned to use present simple tense in commits.
+>>>>>>> fd222d7eb124132f79e3bbc2f3ac5cb326d32751
 
 ---
