@@ -414,7 +414,7 @@ img#intro-image {
 .user-info input:focus,
 .user-info textarea:focus {
     border-color: orangered;
-    box-shadow: orangered;
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.7)
 }
 
 /* Submit button styling */
