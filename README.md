@@ -348,13 +348,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
 
-  ### Gallery page
+  ### Menu page
 
-  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+  ![Menu Page Lighthouse](documentation/lighthouse_menu_page.png)
 
-  ### Contact page
+  ### Booking page
 
-  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+  ![Booking Page Lighthouse](documentation/lighthouse_booking_page.png)
 
   ### Response page
 
