@@ -31,6 +31,9 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 * As a user I want to complete a simple booking form with name, email address, phone number and date so that I can reserve a table easily.
 * As a user I want to complete an allergy information field so that I can adequately inform the restaurant about my allergies.
 * As a user planning a special event, I want an option to leave a special request (e.g Birthday) in the additional information field so that the restaurant can   accomodate my needs.
+https://ola-olawoyin.github.io/tantalizers/
+### Response Page
+* As a user I want to see a confirmation of the table booking I just made on a separate page.
 
 ## Features
 
@@ -96,6 +99,16 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 
 --- 
 
++ ### Response page
+
+    - Response page appears after submitting the contact form.
+    - It contains the thank you message and the promise to confirm reservation shortly.
+    - It will automatically direct the user to the main page in 10 seconds.
+
+    ![Response page](documentation/response_page.png)
+
+---
+
 + ##### Footer
     - There are four social media links (currently not navigating to the social media homepage respectively)
 
@@ -115,6 +128,39 @@ The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute
 
 ---
 
+## Design
+
+### Color Scheme
+
+![Color pallet](documentation/color_pallet.png)
+
+- Black color was used as the main background color of the website due to its effect of boldness, clarity and elegance. It create a contrast in the food presentation.
+
+- Orange-Red color was used for the logo, buttons, links icons, and mobile view navbar icon. This is stimutes brightness, excitement and a psycholigical hunger trigger.
+
+- White color for the header background, footer background, most texts and table booking form. This is to provide clarity and contrast to other elements on the pages.
+
+- Mute-Olive for the opening time and visit us container to create contrast and clarity.
+
+
+
+### Typography
+
+![Lato Font](documentation/lato_font.jpg)
+
+- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Accent Font](documentation/pacifico_font.jpg)
+
+- Cursive Pacifico Google Font was used to attract viewers' attention to the company's logo, to make strong points 'stylishness' and to incentivize visitors to visit "Tantalizers".
+
+![Primary Font](documentation/primary_font.jpg)
+
+- Sans Sarif Font is used as alternatives to the 'stylish' google fonts for browsers that are not compatible with Google fonts.
+
+---
+
+
 ## Deployment
 
 ### Deployment to GitHub Pages
@@ -133,9 +179,17 @@ In your IDE Terminal, type the following command to clone my repository:
 
 - `git clone https://github.com/Ola-Olawoyin/tantalizers.git`
 
+---
 
+## Wireframe
+
+#### Mobile devices
+
+- [Mobile Screen](documentation/wireframe_mobile.jpg)
 
 ---
+
+
 
 ## Acknowledgments
 
@@ -150,5 +204,160 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Testing
 
+## Compatibility
+
+In order to confirm the correct functionality, responsiveness, and appearance:
+
++ The website was tested on the following browsers: Safari, Chrome, Edge.
+
+    - Safari:
+
+    ![Safari](documentation/safari_browser.mp4)
+
+    - Chrome:
+
+    ![Chrome](documentation/chrome_browser.mp4)
+
+    - Edge:
+
+    ![Edge](documentation/edge_browser.mp4)
+
+## Responsiveness
 
 
++ The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+    - Main Page:
+
+    ![Main Page](documentation/home_page_responsive.mp4)
+
+    - Menu Page:
+
+    ![Menu Page](documentation/menu_page_responsive.mp4)
+
+    - Contact Page:
+
+    ![Booking Page](documentation/booking_page_responsive.mp4)
+
+    - Response Page:
+
+    ![Response Page](documentation/response_page_responsive.mp4)
+
+
++ The functionality of the links in the website was checked as well by different users.
+
+## Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Navbar | | | | | |
+| Home | Click on the "Home" link | The user is redirected to the Main page | Yes | Yes | - |
+| Menu | Click on the "Menu" link | The user is redirected to the Menu page | Yes | Yes | - |
+| Booking | Click on the "Booking" link | The user is redirected to the Booking page | Yes | Yes | - |
+| Footer | | | | | |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| X icon in the footer | Click on the X (Twitter) icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Home page | | | | | |
+| "Book A Table" button in Details section | Click on the "Book A Table" button | The user is redirected to the Booking page | Yes | Yes | - |
+| "View Our Menu" button in Details section | Click on the "View Our Menu" button | The user is redirected to the Menu page | Yes | Yes | - |
+| Menu page | | | | | |
+| "Menu list" accordion in menu-accordion section | Click '+' icon in each of the accordion | The menu list for each accordion is displayed | Yes | Yes | - |
+| "Menu list" accordion in menu-accordion section | Hover over each menu | The hover effect highlights each of the hovered meal | Yes | Yes | - |
+| "Menu list" accordion in menu-accordion section | Click '-' icon in each of the accordion | The opened menu list for each accordion is closed | Yes | Yes | - |
+| Image in the gallery | View images in different viewport sizes for user experience | User sees a masonry effect with changing viewport | Yes | Yes | - |
+| "Book A Table" button in Details section | Click on the "Book A Table" button | The user is redirected to the Booking page | Yes | Yes | - |
+| Booking page | | | | | |
+| Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the full name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Confirm Email input | Confirm email | The email is confirm | Yes | Yes | If user doesn't enter any email, the error message appears. If user enters not valid email, the error message appears |
+| Mobile No input | Enter Mobile No | Mobile No is entered | If user enters not valid mobile number, the error message appears|The mobile number filed is not required as the user can choose not to include mobile number|
+| Enter Date and Time| Use date and time checker to select date and time | If user doesn't select date and time  the error message appears.| Yes | Yes | - |
+| Additional information textarea | Enter Additional Information | Additional information is entered | User cannot exceed 400 characters |The additional information textarea is not required as the user can choose not to include any additional information|
+| Any Allergies textarea | Enter allergies if any | No allergies, user enters 'none' | Yes | Yes | If user doesn't enter any response, the error message appears. User cannot exceed 200 characters |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| Response page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
+
+
+---
+## Validator testing
++ ### HTML
+  #### Home Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+    
+  #### Menu Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+
+  #### Booking Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+
+  #### Response Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    
++ ### CSS
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+    
+    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+
+    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
+
+  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+  
+    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
+    
+  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+
+
++ ## LightHouse report
+
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    
+  ### Home page
+
+  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+
+  ### Gallery page
+
+  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+
+  ### Contact page
+
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+
+  ### Response page
+
+  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+
+---
+​
+## Bugs
++ ### Solved bugs
+    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    
+        *Solutions:* Outline was replaced with border properties.
+    
+    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+        
+        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+
+    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+        
+        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+    ---
++ ### Unsolved bugs
+    - None.
++ ### Mistakes
+    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
+    - While progressing in my code I learned to use present simple tense in commits.
+
+---
