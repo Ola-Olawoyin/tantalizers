@@ -71,7 +71,7 @@ https://ola-olawoyin.github.io/tantalizers/
         * invites to view the menu list
         * lists the opening time and location of the restaurant
 
-    ![Home Page](documentation/home-page.png)
+    ![Home Page](documentation/home_page.png)
 
 ---
 
@@ -146,15 +146,15 @@ https://ola-olawoyin.github.io/tantalizers/
 
 ### Typography
 
-![Lato Font](documentation/lato_font.jpg)
+![Lato Font](documentation/lato_font.png)
 
 - Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
 
-![Accent Font](documentation/pacifico_font.jpg)
+![Accent Font](documentation/pacifico_font.png)
 
 - Cursive Pacifico Google Font was used to attract viewers' attention to the company's logo, to make strong points 'stylishness' and to incentivize visitors to visit "Tantalizers".
 
-![Primary Font](documentation/primary_font.jpg)
+![Primary Font](documentation/primary_font.png)
 
 - Sans Sarif Font is used as alternatives to the 'stylish' google fonts for browsers that are not compatible with Google fonts.
 
