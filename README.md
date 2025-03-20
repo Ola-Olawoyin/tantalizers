@@ -233,7 +233,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Menu Page:
 
-    ![Menu Page](documentation/responsive_menu_page.png)
+    ![Menu Page](documentation/responsive_menu_page.jpg)
+
+     ![Menu Open Page](documentation/responsive_open_menupage.jpg)
 
     - Contact Page:
 
@@ -241,7 +243,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Response Page:
 
-    ![Response Page](documentation/responsive_responsepage.png)
+    ![Response Page](documentation/responsive_responsepage.jpg)
 
 
 + The functionality of the links in the website was checked as well by different users.
