@@ -185,11 +185,11 @@ In your IDE Terminal, type the following command to clone my repository:
 
 #### Mobile devices
 
-- [Mobile Screen](documentation/wireframe_mobile.jpg)
+- ![Mobile Screen](documentation/wireframe_mobile.jpg)
 
 #### Desktop devices
 
-- [Desktop Screen](documentation/wireframe_desktop.jpg)
+- ![Desktop Screen](documentation/wireframe_desktop.jpg)
 
 
 ---
