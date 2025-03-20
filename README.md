@@ -187,20 +187,13 @@ In your IDE Terminal, type the following command to clone my repository:
 
 - [Mobile Screen](documentation/wireframe_mobile.jpg)
 
+#### Desktop devices
+
+- [Desktop Screen](documentation/wireframe_desktop.jpg)
+
+
 ---
 
-
-
-## Acknowledgments
-
-- [Juliia Konovalova](https://github.com/IuliiaKonovalova) for mentoring and support.
-- [Mark Lassoff](https://www.udemy.com/course/become-a-certified-web-developer) for HTML and CSS tutoring.
-- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
-- [Lipika Magon](https://www.linkedin.com/in/lmagon) for spending time discussing project idea.
-- [Sean Darley](https://www.linkedin.com/in/seandarley) for helping with testing the application.
-- My wife [Adeola Olawoyin](https://www.linkedin.com/in/adeola-olawoyin-02550232) for providing support and encouragement and also the main tester of the application.
-
----
 
 ## Testing
 
@@ -333,8 +326,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   ![Response Page Lighthouse](documentation/response_page_lighthouse.png)
 
 ---
-​
+
 ## Bugs
+
 + ### Solved bugs
     1. The home page image was not properly aligned and was appearing to large on larger sceens
     
@@ -351,12 +345,47 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     4. Images used are to heavy and are causing performance failure
        
         *Solution:* I compressed the images for more efficiency.
-    ---
+
 + ### Unsolved bugs
     - Booking date can be in the past, yet a confimration message is displayed. This would require other technologies like Javascript to fix.
     - Email and Confirm Email fields may differ yet a confimration message is displayed. This would also require other technologies like Javascript to fix.
+
 + ### Mistakes
     - Mistakes were made while committing changes. I commited some unrelated changes and I wasn't able to include adequate commit messages.
     - While progressing in my code I learned to commit relatable changes.
 
 ---
+
+## Future improvements
+- Make confirmation message personalised and dynamic.
+- Fully functional table booking form 
+
+--- 
+
+## Credits
+
++ #### Content
+    - Inspiration for the Menu page accordion hover effect came from the youtube video "How To Make Accordion Design Using HTML And CSS Step By Step" by  [GreatStack](https://www.youtube.com/watch?v=oCx4gtYe410).
+    - Inspiration for the responsive hamburger navbar came from [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+6/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=last).
+    - Solution for placing the book a table button on top of the view our menu button as against being side by side from [ChatGPT](https://chatgpt.com/) 
+
++ #### Media
+    - All the images for the website were taken from [Unsplash](https://unsplash.com/).
+
++ #### Tools     
+    - VSCode as source-code editor for HTML and CSS code
+    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
+    - [Wireframe for Desktop](https://balsamiq.com/wireframes/desktop) was used to design the project wireframes
+    - [cooler](https://coolors.co/) was used to create the color palette.
+
+
+## Acknowledgments
+
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) for mentoring and support.
+- [Mark Lassoff](https://www.udemy.com/course/become-a-certified-web-developer) for HTML and CSS tutoring.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Lipika Magon](https://www.linkedin.com/in/lmagon) for spending time discussing project idea.
+- [Sean Darley](https://www.linkedin.com/in/seandarley) for helping with testing the application.
+- My wife [Adeola Olawoyin](https://www.linkedin.com/in/adeola-olawoyin-02550232) for providing support and encouragement and also the main tester of the application.
+
+---    
