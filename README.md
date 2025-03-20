@@ -225,23 +225,23 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Responsiveness
 
 
-+ The website was checked by devtools implemented in Firefox and Chrome browsers.
++ The website was checked for the following viewport sizes: Mobile, tablet and desktop.
 
     - Main Page:
 
-    ![Main Page](documentation/home_page_responsive.mp4)
+    ![Main Page](documentation/responsive_home_page.jpg)
 
     - Menu Page:
 
-    ![Menu Page](documentation/menu_page_responsive.mp4)
+    ![Menu Page](documentation/responsive_menu_page.png)
 
     - Contact Page:
 
-    ![Booking Page](documentation/booking_page_responsive.mp4)
+    ![Booking Page](documentation/responsive_booking_page.jpg)
 
     - Response Page:
 
-    ![Response Page](documentation/response_page_responsive.mp4)
+    ![Response Page](documentation/responsive_responsepage.png)
 
 
 + The functionality of the links in the website was checked as well by different users.
