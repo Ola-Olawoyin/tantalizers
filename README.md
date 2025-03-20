@@ -212,15 +212,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Safari:
 
-    ![Safari](documentation/safari_browser.mp4)
+    ![Safari](documentation/safari_browser.png)
 
     - Chrome:
 
-    ![Chrome](documentation/chrome_browser.mp4)
+    ![Chrome](documentation/chrome_browser.png)
 
     - Edge:
 
-    ![Edge](documentation/edge_browser.mp4)
+    ![Edge](documentation/edge_browser.png)
 
 ## Responsiveness
 
