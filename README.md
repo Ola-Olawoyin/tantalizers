@@ -124,8 +124,8 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GIMP](https://www.gimp.org/) was used to resize images to align.
-- [HTML Validator](https://validator.w3.org/).
-- [CSS Validator](https://jigsaw.w3.org/css-validator/).
+- [HTML Validator](https://validator.w3.org/) to validate html files.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate css files.
 
 
 ---
