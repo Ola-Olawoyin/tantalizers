@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-
+/** Style for the body **/
 
 body {
     min-height: 100vh;
@@ -29,20 +29,24 @@ header {
     align-items: baseline;
 }
 
-/** Main Style**/
+/** anchor tag style**/
 a {
     text-decoration: none;
     color: inherit;
 }
 
+/** header 1 tag style**/
 h1 {
     font-family: 'Pacifico', sans-serif;
     color: orangered;
 }
 
+/** hidden header style**/
 .hidden-header {
     display: none;
 }
+
+/*Book a table button style*/
 .book-btn {
     text-decoration: none;
     background-color: orangered;
@@ -54,18 +58,29 @@ h1 {
     font-weight: 700;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .book-btn:hover {
     background-color: rgb(0, 113, 139);
     transform: scale(1.05);
 }
 
+/*Navigation toggle style*/
 .nav-toggle-label {
     font-size: 200%;
     font-weight: bold;
     cursor: pointer;
 }
 
+/*Menu Heading style*/
+#menu-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+/*Menu page accordion style*/
 .menu-accordion {
     width: 100%;
     max-width: 600px;
@@ -77,20 +92,10 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
-
-#menu-heading {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: orangered;
-    margin-bottom: 20px;
-}
-
 .accordion {
     list-style: none;
     padding: 0;
 }
-
 .accordion ul {
     list-style: none; /* Removes bullets */
     padding-left: 0;  /* Removes extra spacing */
@@ -103,13 +108,10 @@ h1 {
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
 }
-
 .accordion li:hover {
     background: rgba(255, 166, 0, 0.507);
     transform: translateY(-2px);
 }
-
-
 .accordion li label {
     display: flex;
     justify-content: space-between;
@@ -123,7 +125,6 @@ h1 {
     border-radius: 8px;
     transition: background 0.3s;
 }
-
 .accordion li label:hover {
     background: orangered;
 }
@@ -148,7 +149,6 @@ input[type="checkbox"] {
     transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
     border-radius: 0 0 8px 8px;
 }
-
 .accordion input[type="checkbox"]:checked + label + .content {
     max-height: 500px; /* Adjust based on content */
     padding: 15px;
@@ -159,26 +159,7 @@ input[type="checkbox"] {
 .accordion input[type="checkbox"]:checked + label::before {
     content: '-';
 }
-/*Style confirmation text*/
-
-#confirm-header {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    color: orangered;
-}
-
-#confirm {
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-}
-
-#menu-heading {
-    padding: 20px 40px;
-    letter-spacing: 3px;
-}
-
+/*Menu and menu list style*/
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
@@ -220,13 +201,12 @@ nav {
 }
 
 main {
-    /*Sets flex grow, flex shrink and flex basis*/
     flex: 1 0 auto;
     margin-top: 56px;
     background-color: black;
 }
 
-/*Intro Section*/
+/*Intro text style*/
 #intro {
     width: 70%;
     font-size:1rem !important;
@@ -238,7 +218,7 @@ main {
     color: white;
 }
 
-/*Intro Section*/
+/*Intro image style*/
 #intro-image {
     position: relative;
     height: 650px;
@@ -254,10 +234,10 @@ img#intro-image {
     width: 650px;
     height: 650px;
     border-radius: 50%;
-    object-fit: cover; /* Ensures the image fills the circle properly */
+    object-fit: cover;
 }
 
-
+/*Text over image style*/
 #intro-food-text {
     background: rgba(0, 0, 0, 0.5);
     bottom: 10px;
@@ -269,23 +249,22 @@ img#intro-image {
     text-align: center;
     border-radius: 5px;
 }
-/*Style the book a table and view munu buttons*/
+/*Book A Table and View our Menu buttons common styles*/
 .details {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center them horizontally */
+    flex-direction: column; 
+    align-items: center; 
 }
 #book-table, #view-menu {
-    display: block; /* Appear one on top of the other*/
+    display: block;
     width: fit-content;
-    margin:10px; /* Adds spacing above and below, centers them */
+    margin:10px; 
     background-color: orangered;
     color: white;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
 }
-
 .booking-menu {
     display: inline-block;
     padding: 12px 24px;
@@ -297,19 +276,18 @@ img#intro-image {
     border-radius: 5px;
     transition: 0.3s;
 }
-
 #book-table:hover, #view-menu:hover {
     background-color: gray;
 }
+
+/*Opening time section style*/
 .meal-time{
     padding-bottom: 10px;
 }
-
 #opening-time ul {
     list-style-type: none;
     text-align: center;
 }
-
 #opening-time {
     background: rgba(113, 107, 83, 0.92);
     width: 50%;
@@ -319,27 +297,22 @@ img#intro-image {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 #opening-time li {
     font-size: 18px;
     margin: 5px 0;
 }
-
 #opening-time li:nth-child(3) {
-    margin-top: 15px; /* Adds space after "Sat-Sun: 10am - 10pm" */
+    margin-top: 15px; 
 }
-
 #opening-time li strong {
     font-size: 20px;
     display: block;
     margin-bottom: 2px;
     text-transform: uppercase;
 }
-
 #opening-time ul ul {
     margin-top: 5px;
 }
-
 #opening-time ul ul li {
     font-weight: normal;
     font-size: 16px;
@@ -348,7 +321,8 @@ img#intro-image {
 #visit-us{
     padding-top: 10px;
 }
-/** Menu Images**/
+
+/** Menu Images style**/
 .meal-picture {
     display: flex;
     justify-content: center;
@@ -357,14 +331,12 @@ img#intro-image {
     padding: 20px;
     line-height: 0;
 }
-
 #meal-photos img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-/* Style for the section */
+/*Table booking style*/
 .table-booking {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -381,15 +353,12 @@ img#intro-image {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Style for form */
+/* Form style */
 .user-info form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
-/* Style for form sections */
 .user-details,
 .about-meal {
     display: flex;
@@ -397,8 +366,6 @@ img#intro-image {
     gap: 10px;
     
 }
-
-/* Input and textarea styling */
 .user-info input,
 .user-info textarea {
     width: 100%;
@@ -410,7 +377,6 @@ img#intro-image {
     font-family: 'Lato', sans-serif;
 }
 
-/* Focus effect */
 .user-info input:focus,
 .user-info textarea:focus {
     border-color: orangered;
@@ -429,12 +395,10 @@ img#intro-image {
     border-radius: 5px;
 }
 
-/* Button hover effect */
 .user-info input[type="submit"]:hover {
     background: orangered;
     transform: scale(1.05);
 }
-
 #booking-datetime {
     width: 100%;
     padding: 12px;
@@ -447,28 +411,20 @@ img#intro-image {
     font-family: 'Lato', sans-serif;
 }
 
-/* Focus effect for date input */
 #booking-date:focus {
     border-color: orangered;
 }
-
-
-/* Adjust textarea sizes */
 #meal-order {
     height: 120px;
 }
-
 #allergies {
     height: 80px;
 }
-
-
 
 /**Footer Styles**/
 i {
     color: orangered;
 }
-
 #social-media {
     text-align: center;
     padding: 20px 0;
@@ -477,7 +433,21 @@ i {
     list-style-type: none;
     font-size: 200%;
 }
-/* Responsive Design */
+
+/*confirmation text stle*/
+#confirm-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: orangered;
+}
+#confirm {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*Responsiveness style */
 @media screen and (min-width: 576px) {
     #meal-photos {
         column-count: 2;
@@ -489,8 +459,6 @@ i {
         padding: 15px;
     }
 }
-
-
 @media screen and (min-width: 768px) {
     nav {
         display: block;
