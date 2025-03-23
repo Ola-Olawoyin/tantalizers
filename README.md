@@ -31,7 +31,7 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * As a user I want to complete a simple booking form with name, email address, phone number and date so that I can reserve a table easily.
 * As a user I want to complete an allergy information field so that I can adequately inform the restaurant about my allergies.
 * As a user planning a special event, I want an option to leave a special request (e.g Birthday) in the additional information field so that the restaurant can   accomodate my needs.
-https://ola-olawoyin.github.io/tantalizers/
+
 ### Response Page
 * As a user I want to see a confirmation of the table booking I just made on a separate page.
 
