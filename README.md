@@ -379,7 +379,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - VSCode as source-code editor for HTML and CSS code
     - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
     - [Wireframe for Desktop](https://balsamiq.com/wireframes/desktop) was used to design the project wireframes
-    - [cooler](https://coolors.co/) was used to create the color palette.
+    - [coolors](https://coolors.co/) was used to create the color palette.
 
 
 ## Acknowledgments
