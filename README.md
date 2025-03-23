@@ -116,14 +116,16 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 
 ---
 ## Technologies Used
-- [Favicon](https://icons8.com/icons/set/favicon-food) was used as source from which favicon was seleceted
+- [Favicon](https://icons8.com/icons/set/favicon-food) was used as source from which favicon was seleceted.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to resize images to align
+- [GIMP](https://www.gimp.org/) was used to resize images to align.
+- [HTML Validator](https://validator.w3.org/).
+- [CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 
 ---
