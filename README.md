@@ -246,6 +246,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | feature | action | expected result | tested | passed | comments |
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
+| Logo | Click on the "Tantalizers" logo | The user is redirected to the Main page | Yes | Yes | - |
 | Home | Click on the "Home" link | The user is redirected to the Main page | Yes | Yes | - |
 | Menu | Click on the "Menu" link | The user is redirected to the Menu page | Yes | Yes | - |
 | Booking | Click on the "Booking" link | The user is redirected to the Booking page | Yes | Yes | - |
