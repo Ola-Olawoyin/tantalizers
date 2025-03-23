@@ -8,7 +8,7 @@ This site can be accessed by this [link](https://ola-olawoyin.github.io/tantaliz
 
 Project Goals:
 This project goal is to showcase web development techniques, mainly HTML and CSS as MVP and without including Javascript nor any back-end integration.
-The form is pointed to [Code Institute Form Dump](https://formdump.codeinstitute.net) as backend integration is not available at this time.
+The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/tantalizers/response.html) as backend integration is not available at this time.
 
 ## User Stories
 
