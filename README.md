@@ -50,6 +50,8 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
         •	Given I am on the Menu or Booking page
         •	When I click on the restaurant's logo
         •	Then I should be redirected to the homepage (index.html)
+* TR2 - The logo correctly redirect user to the homepage from any other page
+![logo redirection](documentation/logo-nav.gif)
 
 ### Landing page (Index.html)    
 * TC3 - Homepage Visual Content
