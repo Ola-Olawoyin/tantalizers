@@ -35,8 +35,79 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 ### Response Page
 * As a user I want to see a confirmation of the table booking I just made on a separate page.
 
-## Features
+## Testing User Story
 
+### Test Cases for All Pages
+* TC1 - Social Media Navigation
+        •	Given I am on any page of the website
+        •   When hover over and click any of the social media icon (e.g., Instagram, Facebook, Twitter)
+        •	Then the social media url is first displayed at the bottom of the page and redirected to the correct social media page in a new tab
+* TR1 - The correct social media url is displayed when I hover over a corresponding social media icon and a new webpage is launched when icon is clicked
+![social media url](documentation/icon-hover.png)
+![social media webpage](documentation/socialmedia-page.png)
+
+* TC2 - Logo Navigates to Homepage
+        •	Given I am on the Menu or Booking page
+        •	When I click on the restaurant's logo
+        •	Then I should be redirected to the homepage (index.html)
+
+### Landing page (Index.html)    
+* TC3 - Homepage Visual Content
+        •	Given I am on the landing page
+        •	Then I should see a high-quality meal image, welcome message, and any special offers
+
+* TC4 - Access Booking Page
+       •	Given I am on the landing page
+       •	When I click the “Book a Table” button
+       •	Then I should be redirected to the booking page (booking.html)
+
+* TC5 - Access Menu Page
+       •	Given I am on the landing page
+       •	When I click “View Menu”
+       •	Then I should be redirected to the menu page (menu.html)
+
+* TC6 - View Opening Hours and Location
+       •	Given I am on the landing page
+       •	Then I should see the restaurant's opening hours and location details displayed clearly
+
+### Test Cases for Menu Page
+* TC7 - View Menu List
+       •	Given I am on the menu page
+       •	Then I should see a list of available dishes
+
+* TC8 - Separated Meal Categories
+       •	Given I am on the menu page
+       •	Then I should see distinct meal categories (e.g., Starters, Mains, Desserts)
+
+* TC9 - Meal Images Displayed
+       •	Given I am on the menu page
+       •	Then I should see corresponding images for each menu item
+
+ ### Test Cases for Booking Page
+* TC10 - Complete Booking Form
+       •	Given I am on the booking page
+       •	When I enter name, email, phone number, and date/time
+       •	Then I should be able to submit the form successfully
+
+* TC11 - Allergy Information Field
+       •	Given I am on the booking page
+       •	Then I should see a field to enter allergy information
+       •	When I enter relevant allergy info
+       •	Then it should be included in the form submission
+
+* TC12 - Additional Info for Special Requests
+       •	Given I am on the booking page
+       •	Then I should see an additional information textarea
+       •	When I enter something like “Birthday celebration”
+       •	Then the form should allow submission with this note
+
+ ### Test Case for Response Page
+* TC13 - Confirmation Message
+       •	Given I have submitted a booking form
+       •	Then I should be redirected to a confirmation or response page
+       •	And I should see a confirmation message stating the booking was successful
+      
+         
 + ### NavBar
 
 + ##### Navigation
