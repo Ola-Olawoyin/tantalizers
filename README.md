@@ -57,11 +57,15 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * TC3 - Homepage Visual Content
         •	Given I am on the landing page
         •	Then I should see a high-quality meal image, welcome message, and any special offers
+* TR3 - The homepage displays high quality meal image, welcome message, and any special offer
 
 * TC4 - Access Booking Page
        •	Given I am on the landing page
        •	When I click the “Book a Table” button
        •	Then I should be redirected to the booking page (booking.html)
+       •	And I can complete a booking successfully
+* TR4 - The booking page displays and user successfully complete a booking
+![booking redirection](documentation/bookingpage.gif)
 
 * TC5 - Access Menu Page
        •	Given I am on the landing page
