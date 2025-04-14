@@ -97,7 +97,7 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * TC9 - Meal Images Displayed
        •	Given I am on the menu page
        •	Then I should see corresponding images for each menu item
-* TR9 - The meal images are masonrily arranged and responsively displayed with respecto to viewport
+* TR9 - The meal images are masonrily arranged and responsively displayed with respect to viewport sizes
 ![meal images](documentation/mealimages.gif)   
 ![responsive meal images](documentation/responsivemealimage.png)     
 
@@ -106,24 +106,23 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
        •	Given I am on the booking page
        •	When I enter name, email, phone number, and date/time
        •	Then I should be able to submit the form successfully
+       •	Then I should see a confirmation page displayed
+* TR10 - User successfully complete booking form and confirmation page successfully displayed 
 
 * TC11 - Allergy Information Field
        •	Given I am on the booking page
        •	Then I should see a field to enter allergy information
-       •	When I enter relevant allergy info
-       •	Then it should be included in the form submission
+       •	When left blank
+       •	Then an appropriate error message should be displayed
+* TR11 - User cannot successfully complete booking form and an error message is displayed 
+![allergy error images](documentation/allergyerrormsg.png)        
 
 * TC12 - Additional Info for Special Requests
        •	Given I am on the booking page
        •	Then I should see an additional information textarea
        •	When I enter something like “Birthday celebration”
        •	Then the form should allow submission with this note
-
- ### Test Case for Response Page
-* TC13 - Confirmation Message
-       •	Given I have submitted a booking form
-       •	Then I should be redirected to a confirmation or response page
-       •	And I should see a confirmation message stating the booking was successful
+* TR12 - User can optionally add additional information on the form
       
          
 + ### NavBar
