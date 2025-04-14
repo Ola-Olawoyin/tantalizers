@@ -468,6 +468,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
     - [Wireframe for Desktop](https://balsamiq.com/wireframes/desktop) was used to design the project wireframes
     - [coolors](https://coolors.co/) was used to create the color palette.
+    - [ScreenToGif](https://www.screentogif.com/) was used to record screen in gif format
 
 
 ## Acknowledgments
