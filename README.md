@@ -91,6 +91,9 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * TC8 - Separated Meal Categories
        •	Given I am on the menu page
        •	Then I should see distinct meal categories (e.g., Starters, Mains, Desserts)
+* TR8 - The meal categories are separated as displayed
+![menu list categories](documentation/mealcategories.png) 
+
 
 * TC9 - Meal Images Displayed
        •	Given I am on the menu page
