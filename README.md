@@ -94,10 +94,12 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * TR8 - The meal categories are separated as displayed
 ![menu list categories](documentation/mealcategories.png) 
 
-
 * TC9 - Meal Images Displayed
        •	Given I am on the menu page
        •	Then I should see corresponding images for each menu item
+* TR9 - The meal images are masonrily arranged and responsively displayed with respecto to viewport
+![meal images](documentation/mealimages.gif)   
+![responsive meal images](documentation/responsivemealimage.png)     
 
  ### Test Cases for Booking Page
 * TC10 - Complete Booking Form
