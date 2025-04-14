@@ -84,6 +84,9 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
 * TC7 - View Menu List
        •	Given I am on the menu page
        •	Then I should see a list of available dishes
+* TR7 - The menu page displays list of available dishes  
+![menu list open](documentation/menulist-open.png)  
+![menu list close](documentation/menulist-close.png)    
 
 * TC8 - Separated Meal Categories
        •	Given I am on the menu page
