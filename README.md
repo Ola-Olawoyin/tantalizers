@@ -73,9 +73,12 @@ The booking form is pointed to a [Response Page](https://ola-olawoyin.github.io/
        •	Then I should be redirected to the menu page (menu.html)
 * TR5 - The menu page displays and user successfully view menu list and meal images
 ![menu redirection](documentation/menupage.gif)
+
 * TC6 - View Opening Hours and Location
        •	Given I am on the landing page
        •	Then I should see the restaurant's opening hours and location details displayed clearly
+* TR6 - The opening hour and location displays and clearly contrasts for visibility
+![opening hour](documentation/openinghour.png)
 
 ### Test Cases for Menu Page
 * TC7 - View Menu List
